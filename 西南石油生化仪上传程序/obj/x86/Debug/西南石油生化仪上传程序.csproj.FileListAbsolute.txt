@@ -1,9 +1,0 @@
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\bin\x86\Debug\西南石油生化仪上传程序.exe.config
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\bin\x86\Debug\西南石油生化仪上传程序.exe
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\bin\x86\Debug\西南石油生化仪上传程序.pdb
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\obj\x86\Debug\西南石油生化仪上传程序.Form1.resources
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\obj\x86\Debug\西南石油生化仪上传程序.Properties.Resources.resources
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\obj\x86\Debug\西南石油生化仪上传程序.csproj.GenerateResource.Cache
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\obj\x86\Debug\西南石油生化仪上传程序.exe
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\obj\x86\Debug\西南石油生化仪上传程序.pdb
-E:\vsproject\西南石油生化仪上传程序\西南石油生化仪上传程序\obj\x86\Debug\西南石油生化仪上传程序.csprojResolveAssemblyReference.cache
