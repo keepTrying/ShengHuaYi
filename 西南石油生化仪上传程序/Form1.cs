@@ -19,7 +19,7 @@ namespace 西南石油生化仪上传程序
         private String str_access_path;
         private String str_access_copy;
         private String doctor_id;
-        private static String str_sqlsever_conn = @"server=192.168.1.252;database=jk2007;user=user26;pwd=welcome";
+        private String str_sqlsever_conn;
         private OleDbConnection access_conn;
         private SqlConnection sql_conn;
         private DataTable dt_name;
@@ -43,6 +43,7 @@ namespace 西南石油生化仪上传程序
 
             str_access_conn = ConfigurationManager.AppSettings["str_access_conn"];
             str_access_path = ConfigurationManager.AppSettings["str_access_source"];
+            str_sqlsever_conn = ConfigurationManager.AppSettings["str_sql_conn"];
             int end_index = str_access_conn.IndexOf(';',45);
             str_access_copy = str_access_conn.Substring(45,end_index-45);
             try
