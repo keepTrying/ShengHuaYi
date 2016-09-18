@@ -542,6 +542,20 @@ namespace 西南石油生化仪上传程序
                 cmd2.ExecuteNonQuery();
 
             }
+            sql2 = "select 各科体检状态 from 职业病体检_体检基本信息表 where 系统编号='" + textBox_code.Text.Trim() + "'";
+            cmd2 = new SqlCommand(sql2, sql_conn);
+            read2 = cmd2.ExecuteReader();
+            String depart_state="";
+            while (read2.Read())
+            {
+                depart_state = read2["各科体检状态"].ToString();
+                depart_state = depart_state.Substring(0, 16) + "2";
+                
+            }
+            read2.Close();
+            sql2 = "update 职业病体检_体检基本信息表 set 各科体检状态 = '" + depart_state + "' where 系统编号='" + textBox_code.Text.Trim() + "'";
+            cmd2 = new SqlCommand(sql2, sql_conn);
+            cmd2.ExecuteNonQuery();
 
             isMsgBox = true;
             DialogResult dialogRes = MessageBox.Show("上传成功");
